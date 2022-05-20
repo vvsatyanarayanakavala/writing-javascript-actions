@@ -1,1 +1,4 @@
 
+name: "JS Actions"
+
+on: [push]
