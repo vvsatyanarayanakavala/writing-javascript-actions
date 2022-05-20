@@ -1,6 +1,11 @@
+
 name: "my hello action"
 
-description: "say hello with actions"
+description: "say hello with GitHub Actions"
+
+runs:
+  using: "node12"
+  main: "main.js"
 
 inputs:
   first-greeting:
